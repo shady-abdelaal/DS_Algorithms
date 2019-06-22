@@ -11,7 +11,7 @@ Example 2:
 Input: [0,2,1,-6,6,7,9,-1,2,0,1]
 Output: false
 
-** My Solution scored faster than 99.92% of python solutions.  **
+**My Solution scored faster than 99.92% of python solutions.**
 The key to the speed is that I ignored checking for the "third" part. 
 If the first 2 achieve the condition, then definitely the third does, no need to waste time to check it.
 

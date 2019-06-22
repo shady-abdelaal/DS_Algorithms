@@ -19,10 +19,6 @@ If the first 2 achieve the condition, then definitely the third does, no need to
 '''
 class Solution(object):
     def canThreePartsEqualSum(self, A):
-        """
-        :type A: List[int]
-        :rtype: bool
-        """
         sum_1 = 0
         sum_2 = 0
         S = sum(A)/3

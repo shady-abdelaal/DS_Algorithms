@@ -16,7 +16,7 @@ The key to the speed is that I ignored checking for the "third" part.
 If the first 2 achieve the condition, then definitely the third does, no need to waste time to check it.
 
 
-```
+``` python
 class Solution(object):
     def canThreePartsEqualSum(self, A):
         sum_1 = 0

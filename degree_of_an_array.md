@@ -1,4 +1,4 @@
-#LeetCode Problem:
+# LeetCode Problem:
 https://leetcode.com/problems/degree-of-an-array/
 
 Given a non-empty array of non-negative integers nums, the degree of this array is defined as the maximum frequency of any one of its elements.
@@ -47,3 +47,4 @@ class Solution(object):
         return shortest_length
         
 ```
+

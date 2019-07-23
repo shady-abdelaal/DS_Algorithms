@@ -18,7 +18,7 @@ Input: [1,2,2,3,1,4,2]
 Output: 6
 
 **My Solution:**
-```
+``` python
 class Solution(object):
     def findShortestSubArray(self, nums):
         """

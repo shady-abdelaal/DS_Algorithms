@@ -15,7 +15,7 @@ Output: 8
 **My Solution:** 
 With Runtime: 100 ms, ***faster than 99.85%*** of Python online submissions for Missing Number.
 
-```
+``` python
 class Solution(object):
     def missingNumber(self, nums):
         """

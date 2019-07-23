@@ -7,7 +7,7 @@ the original string. You can assume the string has only uppercase and lowercase 
 
 
 
-```
+``` python
 def string_compression(inputString):
     compressedString = ""
     consecutiveCount = 1

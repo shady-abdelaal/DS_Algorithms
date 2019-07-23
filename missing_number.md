@@ -27,8 +27,5 @@ class Solution(object):
                 return 1
             else:
                 return 0
-        actual = sum(nums)
-        supposed = sum(range(len(nums) + 1))
-        missing = supposed - actual
-        return missing
+        return sum(range(len(nums) + 1)) - sum(nums)
 ```

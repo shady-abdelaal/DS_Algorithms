@@ -1,4 +1,4 @@
-LeetCode Problem:
+#LeetCode Problem:
 https://leetcode.com/problems/degree-of-an-array/
 
 Given a non-empty array of non-negative integers nums, the degree of this array is defined as the maximum frequency of any one of its elements.
@@ -17,7 +17,7 @@ Example 2:
 Input: [1,2,2,3,1,4,2]
 Output: 6
 
-My Solution:
+** My Solution: **
 ```
 class Solution(object):
     def findShortestSubArray(self, nums):

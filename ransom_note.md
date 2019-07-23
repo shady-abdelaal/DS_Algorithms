@@ -13,7 +13,7 @@ canConstruct("aa", "ab") -> false
 canConstruct("aa", "aab") -> true
 
 **My Solution:**
-```
+``` python
 class Solution(object):
     def canConstruct(self, ransomNote, magazine):
         """

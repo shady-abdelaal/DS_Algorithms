@@ -42,7 +42,7 @@ Since not every customer received correct change, the answer is false.
 
 
 **My Solution:**
-```
+``` python
 class Solution(object):
     def lemonadeChange(self, bills):
         """

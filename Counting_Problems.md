@@ -60,3 +60,25 @@ for i in sorted_tuples:
 
 ```
 
+**The whole code would be:
+
+```python
+def sort_string(input_string):
+    counting_dictionary = {}
+    for element in input_string:
+        counting_dictionary[element] = counting_dictionary.get(element, 0) + 1
+        
+    return counting_dictionary
+
+
+
+if __name__ == '__main__':
+    input_string = "tree"
+    detailed_dict = sort_string_2(input_string)
+    sorted_tuples = sorted(detailed_dict.items() ,  key=lambda x: x[1], reverse = True)
+    res = ""
+    for i in sorted_tuples:
+        res += i[0]*i[1]
+
+    print(res)
+```

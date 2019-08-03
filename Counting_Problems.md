@@ -39,7 +39,24 @@ Or, we can implement the same behavior but with a more elegant, pythonic way. Us
 def counting_string(input_string):
     counting_dictionary = {}
     for element in input_string:
-        counting_dictionary[element] = counting_dictionary.get(element, 0) + 1  # get will return the value if the key exists, else, it will return 0
+        counting_dictionary[element] = counting_dictionary.get(element, 0) + 1  
+        # get will return the value if the key exists, else, it will return 0
         
     return counting_dictionary
 ```
+
+Now that we have the detailed count of the string's characters, we want to sort them in descending order. 
+Dictoniaries in python have no specific order, unlike list & tuple, we can't "sort" a dictionary because the order is meaningless. Dictionaries are hash maps, which reach the value based on the input key and nothing more. (Ant that's what makes searching in a dictionary O(1), but that's a topic for another article).
+
+So, we will have to use the "items()" method of dictionary in order to return the keys and values to a tuple that we can then sort.
+
+``` sorted_tuples = sorted(counting_dictoniary.items() ,  key=lambda x: x[1], reverse = True) ```
+If tried on the example we have, then: input: {'t': 1, 'r': 1, 'e': 2} -> Output is: [('e', 2), ('t', 1), ('r', 1)]
+
+Now, we have the characters, each with its frequency and also sorted in a descending order. We now have to assemble the output string based on these tuples:
+```
+for i in sorted_tuples:
+        res += i[0]*i[1]
+
+```
+

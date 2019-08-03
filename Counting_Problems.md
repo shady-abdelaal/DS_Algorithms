@@ -60,7 +60,7 @@ for i in sorted_tuples:
 
 ```
 
-**The whole code would be:
+**The whole code would be:**
 
 ```python
 def sort_string(input_string):

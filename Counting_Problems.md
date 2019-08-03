@@ -18,7 +18,7 @@ For more info about dictionaries:
 Let's take the first problem we introduced in the previous section and see how can we solve it with dictionaries.
 First, the counting:
 
-```
+```python
 def counting_string(input_string):
     counting_dictionary = {}
     for element in input_string:
@@ -35,7 +35,7 @@ Try it with the input "tree" -> Output dictionary: {'t': 1, 'r': 1, 'e': 2}
 
 Or, we can implement the same behavior but with a more elegant, pythonic way. Using dictionary.get()
 
-```
+```python
 def counting_string(input_string):
     counting_dictionary = {}
     for element in input_string:

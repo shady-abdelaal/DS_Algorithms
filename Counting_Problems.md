@@ -11,7 +11,7 @@ for each.
 
 Now, we are going to discuss the ways used to solve similar problemd with 2 possible techniques.
 
-** Classical Approach - Dictionary:
+## Classical Approach - Dictionary:
 Python dictionary is a powerful tool, any developer using python would definitely need to master their use as they can give you an incredible/fast ways to keep track of data related to a key. 
 For more info about dictionaries:
 

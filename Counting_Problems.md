@@ -1,19 +1,17 @@
 # Solving Counting Problems with Python
 
-In this tutorial, we are going to discuss some tips and tricks to solving counting problems with Python. First through the basic, standard python data structures
-and then with the more advanced counter module.
+In this tutorial, we are going to discuss some tips and tricks to solving counting problems with Python. Using the standard python data structures first, then using more advanced modules in a second part of the tutorial.
 
-Counting problems are a category of "problem solving" where you are faced with the problem where you need to keep track of the count of different stream of data. 
+Counting problems are a category of "problem solving" where you are faced with the problem where you need to keep track of the count of elements contained in a stream of data. 
 For instance, let's have a look at this problem: https://leetcode.com/problems/sort-characters-by-frequency/ . Where, given a string, we need to
 sort it in decreasing order based on the frequency of characters. For example: Input: "tree" , Output: "eert".
 Another example: given a file which represents an internet browser history for the last month. Return the 10 most visited websites sorted along with the number of visits
 for each.
 
-Now, we are going to discuss the ways used to solve similar problemd with 2 possible techniques.
+Now, we are going to discuss the how to solve similar problems with the standard python data strucutres.
 
 ## Classical Approach - Dictionary:
 Python dictionary is a powerful tool, any developer using python would definitely need to master their use as they can give you an incredible/fast ways to keep track of data related to a key. 
-For more info about dictionaries:
 
 Let's take the first problem we introduced in the previous section and see how can we solve it with dictionaries.
 First, the counting:
@@ -82,3 +80,8 @@ if __name__ == '__main__':
 
     print(res)
 ```
+
+
+## Summary:
+In this tutorial, counting problems are introduced, along with the standard way to solve them in python; using dictionaries. We learned how to perform the counting on the stream of data, how to use dictionary `get()` method, then how to sort the count dictionary if needed (most probably by the frequency of appearance).
+In the next tutorial, we will explain how to perform the same logic but with the more advanced counter module.

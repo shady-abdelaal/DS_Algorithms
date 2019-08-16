@@ -1,4 +1,4 @@
-# Solving Counting Problems with Python
+# Solving Counting Problems with Python - Part 1
 
 In this tutorial, we are going to discuss some tips and tricks to solving counting problems with Python. Using the standard python data structures first, then using more advanced modules in a second part of the tutorial.
 

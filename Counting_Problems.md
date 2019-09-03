@@ -44,7 +44,7 @@ def counting_string(input_string):
 ```
 
 Now that we have the detailed count of the string's characters, we want to sort them in descending order. 
-Dictoniaries in python have no specific order, unlike list & tuple, we can't "sort" a dictionary because the order is meaningless. Dictionaries are hash maps, which reach the value based on the input key and nothing more. (Ant that's what makes searching in a dictionary O(1), but that's a topic for another article).
+Dictoniaries in python have no specific order. Unlike list & tuple, we can't "sort" a dictionary because the order is meaningless. Dictionaries are hash maps, which reach the value based on the input key and nothing more. (And that's what makes searching in a dictionary O(1), but that's a topic for another article).
 
 So, we will have to use the "items()" method of dictionary in order to return the keys and values to a tuple that we can then sort.
 
@@ -72,7 +72,7 @@ def sort_string(input_string):
 
 if __name__ == '__main__':
     input_string = "tree"
-    detailed_dict = sort_string_2(input_string)
+    detailed_dict = sort_string(input_string)
     sorted_tuples = sorted(detailed_dict.items() ,  key=lambda x: x[1], reverse = True)
     res = ""
     for i in sorted_tuples:

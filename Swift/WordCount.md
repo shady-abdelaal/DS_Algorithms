@@ -1,3 +1,18 @@
+This problem is from Swift course on udemy. 
+Since I am still new to swift, I thought I should start with the basics, and what is better than counting problems?! Counting problems touch on the basics since it deals with strings, lists and dictionaries and moreover, operating on these dictionaries like sorting. So this problem is a good start for a swift beginner to get things going.
+
+The problem statement is:
+Write a function that takes in any text, and counts how many words there are in total and list the words from the most used to the least. Dealing with the text as case insensitive.
+
+## The Logic:
+Now let's break the problem statement into detailed steps and tackle each one by one.
+1- Slice the text by the spaces to get a list of words.
+2- Count the words.
+3- Sort the words and return them from the most used to the least.
+
+### Slicing:
+
+
 ```swift
 import Foundation
 var full_text = "This is a test This is"

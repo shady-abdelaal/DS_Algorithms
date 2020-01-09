@@ -31,5 +31,3 @@ for(key,value) in sortedDict {
   print("\(index_count). \(key) - \(value)")
   index_count += 1
 }
-//print(full_text_array.count)
-//print(sorted_dictionary_count[0])

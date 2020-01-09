@@ -1,4 +1,4 @@
-import Foundation
+`import Foundation
 var full_text = "This is a test This is"
 full_text = full_text.lowercased()
 let full_text_array = full_text.components(separatedBy: " ")
@@ -31,3 +31,4 @@ for(key,value) in sortedDict {
   print("\(index_count). \(key) - \(value)")
   index_count += 1
 }
+`

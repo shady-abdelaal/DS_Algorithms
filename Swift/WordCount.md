@@ -6,11 +6,17 @@ Write a function that takes in any text, and counts how many words there are in 
 
 ## The Logic:
 Now let's break the problem statement into detailed steps and tackle each one by one.
-1- Slice the text by the spaces to get a list of words.
-2- Count the words.
-3- Sort the words and return them from the most used to the least.
+1. Slice the text by the spaces to get a list of words.
+2. Count the words.
+3. Sort the words and return them from the most used to the least.
 
 ### Slicing:
+
+### Counting:
+
+### Sorting:
+
+## Final Solution
 
 
 ```swift

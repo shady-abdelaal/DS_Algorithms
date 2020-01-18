@@ -94,3 +94,6 @@ for(key,value) in sortedDict {
   index_count += 1
 }
 ```
+
+## Summary:
+In this short tutorial, we introduced the basic concepts of counting problems along with their implementation with Swift. `Slicing` which is an essential method when dealing with strings, then counting instances using the most suitable data structure; in this case that is the dictionary and finally sorting the dictionary based on the `value`. 

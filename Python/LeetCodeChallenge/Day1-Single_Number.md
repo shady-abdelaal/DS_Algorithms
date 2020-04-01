@@ -14,6 +14,8 @@ Example 2:
 Input: [4,1,2,1,2]
 Output: 4
 
+[Question Link](https://leetcode.com/problems/single-number/) 
+
 # Solution
 The brute force way to solve this problem is to count all the existing numbers, then we will have a set of numbers, all have a count of 2 except for one which has a count of 1. Then we will return that specific number, seems straight forward, right?
 

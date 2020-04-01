@@ -1,18 +1,18 @@
 # Question
-Given a non-empty array of integers, every element appears twice except for one. Find that single one.
+> Given a non-empty array of integers, every element appears twice except for one. Find that single one.
 
-Note:
+> Note:
 
-Your algorithm should have a linear runtime complexity. Could you implement it without using extra memory?
+> Your algorithm should have a linear runtime complexity. Could you implement it without using extra memory?
 
-Example 1:
+> Example 1:
 
-Input: [2,2,1]
-Output: 1
-Example 2:
+> Input: [2,2,1]
+> Output: 1
+> Example 2:
 
-Input: [4,1,2,1,2]
-Output: 4
+> Input: [4,1,2,1,2]
+> Output: 4
 
 # Solution
 The brute force way to solve this problem is to count all the existing numbers, then we will have a set of numbers, all have a count of 2 except for one which has a count of 1. Then we will return that specific number, seems straight forward, right?

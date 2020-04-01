@@ -25,6 +25,7 @@ Now, the complexity of that algorithm. We have one loop through our array, and w
 
 
 # Code
+# python 
 class Solution(object):
     def singleNumber(self, nums):
         """

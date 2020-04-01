@@ -17,7 +17,7 @@ Output: 4
 # Solution
 The brute force way to solve this problem is to count all the existing numbers, then we will have a set of numbers, all have a count of 2 except for one which has a count of 1. Then we will return that specific number, seems straight forward, right?
 
-Well, that solution works, but it is not by far an optimum one. Why? First of all, depending on the implementation of the other bucket , whether it is a list or dictionary, then this could be with complexity O(n^2) or O(n) if it was implemented as hash map (dictionary in python). Second, why all that wasted memory? Who said that we need to store & count all that just to return the needed element? Let's see a more optimized solution.
+Well, that solution works, but it is not by far an optimum one. Why? First of all, depending on the implementation of the other bucket , whether it is a list or dictionary, then this could be with complexity O(n<sup>2</sup> ) or O(n) if it was implemented as hash map (dictionary in python). Second, why all that wasted memory? Who said that we need to store & count all that just to return the needed element? Let's see a more optimized solution.
 
 First, create another bucket (list, dictionary,...?), then loop through our number array. If the number already exists in the other bucket, then remove it. That's the difference here, we already know that the all the numbers - except for one - exists twice, so the fact that it already exists in the other bucket, means that it is one of those existing twice in the array, so we don't need to keep it anymore, that's why we can remove it. After completing the loop, we will have only one element in the bucket, and that is the needed number.
 

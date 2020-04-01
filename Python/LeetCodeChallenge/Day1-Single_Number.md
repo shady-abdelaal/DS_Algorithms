@@ -25,7 +25,7 @@ Now, the complexity of that algorithm. We have one loop through our array, and w
 
 
 # Code
-# python 
+``` python
 class Solution(object):
     def singleNumber(self, nums):
         """
@@ -39,6 +39,6 @@ class Solution(object):
             else:
                 new_dict[number] = 1
         return new_dict.keys()[0]
-        
+```        
         
       

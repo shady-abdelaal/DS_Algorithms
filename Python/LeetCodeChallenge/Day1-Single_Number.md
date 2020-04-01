@@ -21,7 +21,7 @@ Well, that solution works, but it is not by far an optimum one. Why? First of al
 
 First, create another bucket (list, dictionary,...?), then loop through our number array. If the number already exists in the other bucket, then remove it. That's the difference here, we already know that the all the numbers - except for one - exists twice, so the fact that it already exists in the other bucket, means that it is one of those existing twice in the array, so we don't need to keep it anymore, that's why we can remove it. After completing the loop, we will have only one element in the bucket, and that is the needed number.
 
-Now, the complexity of that algorithm. We have one loop through our array, and we have another 'search' in the other bucket. Here is the trick, if that other bucket is implemented as a list, then here is another O(n) and thus the total complexity is O(n^2). But if that bucket is implemented as a hash map (dictionary in python), with a linear search complexity, then we are good and the overall complexity is O(n).
+Now, the complexity of that algorithm. We have one loop through our array, and we have another 'search' in the other bucket. Here is the trick, if that other bucket is implemented as a list, then here is another O(n) and thus the total complexity is O(n<sup>2</sup> ). But if that bucket is implemented as a hash map (dictionary in python), with a linear search complexity, then we are good and the overall complexity is O(n).
 
 
 # Code

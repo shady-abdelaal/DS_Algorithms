@@ -8,3 +8,6 @@ In this directory. I will present my original solutions to some of leetcode 30-d
 * Move Zeroes  
 * Best Time to Buy and Sell Stock II  
 * Counting Elements
+
+## Week 2 
+* Middle of Linked List

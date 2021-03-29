@@ -25,7 +25,21 @@ def string_compression(inputString):
     
     return compressedString
         
+def string_compression2(inputString):
+    compressedString = []
+    consecutiveCount = 1
+    for i in range(len(inputString)):
+        if(i+1 >= len(inputString) or inputString[i] != inputString[i+1]):
+            compressedString.extend([inputString[i] ,  str(consecutiveCount)])
+            consecutiveCount = 1
+            
+        else:
+            consecutiveCount += 1
+            
 
+    return min(''.join(compressedString),inputString, key=len)
+    
+    
 def main():
     answer = string_compression("aaassssfjff")
     print(answer)

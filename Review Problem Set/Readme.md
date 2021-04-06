@@ -9,7 +9,7 @@ In week 1, we will start off easy and do a mix of easy and medium questions on a
 - [x] Contains Duplicate
 - [x] Best Time to Buy and Sell Stock
 - [x] Valid Anagram
-- [ ] Valid Parentheses
+- [x] Valid Parentheses
 - [ ] Product of Array Except Self
 - [ ] Maximum Subarray
 - [ ] 3Sum

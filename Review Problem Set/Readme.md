@@ -6,6 +6,7 @@ In week 1, we will start off easy and do a mix of easy and medium questions on a
 
 Two Sum
 [] Contains Duplicate
+
 [] Best Time to Buy and Sell Stock
 Valid Anagram
 Valid Parentheses

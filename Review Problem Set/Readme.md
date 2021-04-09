@@ -13,8 +13,8 @@ In week 1, we will start off easy and do a mix of easy and medium questions on a
 - [x] Product of Array Except Self
 - [x] Maximum Subarray
 - [ ] 3Sum
-- [ ] Merge Intervals
-- [ ] Group Anagrams
+- [x] Merge Intervals
+- [x] Group Anagrams
 Optional#
 - [ ] Maximum Product Subarray
 - [ ] Search in Rotated Sorted Array

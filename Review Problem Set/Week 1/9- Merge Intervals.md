@@ -1,7 +1,7 @@
 Problem: https://leetcode.com/problems/merge-intervals/submissions/
 
 
-```
+```python
 class Solution(object):
     def merge(self, intervals):
         """

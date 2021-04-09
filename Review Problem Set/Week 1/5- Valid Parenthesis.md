@@ -3,7 +3,7 @@ https://leetcode.com/problems/valid-parentheses/submissions/
 This scored well. Runtime: 16 ms, faster than 85.90% of Python online submissions for Valid Parentheses.
 Although it needs refactoring, I don't like its design.
 
-```
+```python
 class Solution(object):
     def isValid(self, s):
         """

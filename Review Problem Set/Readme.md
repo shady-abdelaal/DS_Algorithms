@@ -26,7 +26,7 @@ Optional#
 - [ ] Find Minimum in Rotated Sorted Array
 - [x] Longest Repeating Character Replacement
 - [x] Longest Substring Without Repeating Characters
-- [ ] Minimum Window Substring
+- [ ] Minimum Window Substring .. Skip (Hard)
 - [ ] Number of Islands
 - [x] Remove Nth Node From End Of List
 - [ ] Palindromic Substrings

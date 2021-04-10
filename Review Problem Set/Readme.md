@@ -16,7 +16,7 @@ In week 1, we will start off easy and do a mix of easy and medium questions on a
 - [x] Merge Intervals
 - [x] Group Anagrams
 Optional#
-- [ ] Maximum Product Subarray
+- [x] Maximum Product Subarray
 - [ ] Search in Rotated Sorted Array
 
 # Week 2

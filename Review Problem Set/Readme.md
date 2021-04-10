@@ -12,7 +12,7 @@ In week 1, we will start off easy and do a mix of easy and medium questions on a
 - [x] Valid Parentheses
 - [x] Product of Array Except Self
 - [x] Maximum Subarray
-- [ ] 3Sum
+- [x] 3Sum (Imp)
 - [x] Merge Intervals
 - [x] Group Anagrams
 Optional#

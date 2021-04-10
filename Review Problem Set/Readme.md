@@ -20,3 +20,14 @@ Optional#
 - [ ] Search in Rotated Sorted Array
 
 # Week 2
+- [ ] Reverse a Linked List
+- [ ] Detect Cycle in a Linked List
+- [ ] Container With Most Water
+- [ ] Find Minimum in Rotated Sorted Array
+- [x] Longest Repeating Character Replacement
+- [x] Longest Substring Without Repeating Characters
+- [ ] Minimum Window Substring
+- [ ] Number of Islands
+- [x] Remove Nth Node From End Of List
+- [ ] Palindromic Substrings
+- [ ] Pacific Atlantic Water Flow

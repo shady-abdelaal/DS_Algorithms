@@ -1,6 +1,6 @@
 https://leetcode.com/problems/contains-duplicate/submissions/
 
-```
+```python
 class Solution(object):
     def containsDuplicate(self, nums):
         """

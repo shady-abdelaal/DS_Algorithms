@@ -20,7 +20,7 @@ Optional#
 - [x] Search in Rotated Sorted Array
 
 # Week 2
-- [ ] Reverse a Linked List
+- [x] Reverse a Linked List
 - [ ] Detect Cycle in a Linked List
 - [ ] Container With Most Water
 - [ ] Find Minimum in Rotated Sorted Array

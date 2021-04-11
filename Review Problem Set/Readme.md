@@ -17,7 +17,7 @@ In week 1, we will start off easy and do a mix of easy and medium questions on a
 - [x] Group Anagrams
 Optional#
 - [x] Maximum Product Subarray
-- [ ] Search in Rotated Sorted Array
+- [x] Search in Rotated Sorted Array
 
 # Week 2
 - [ ] Reverse a Linked List

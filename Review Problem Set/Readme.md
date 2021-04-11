@@ -21,7 +21,7 @@ Optional#
 
 # Week 2
 - [x] Reverse a Linked List
-- [ ] Detect Cycle in a Linked List
+- [x] Detect Cycle in a Linked List
 - [ ] Container With Most Water
 - [ ] Find Minimum in Rotated Sorted Array
 - [x] Longest Repeating Character Replacement

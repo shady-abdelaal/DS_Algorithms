@@ -3,7 +3,7 @@ https://leetcode.com/problems/valid-anagram/submissions/
 
 
 This solution seems slow, needs optimization/improvements.
-```
+```python
 class Solution(object):
     def isAnagram(self, s, t):
         """

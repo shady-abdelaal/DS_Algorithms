@@ -1,7 +1,7 @@
 
 https://leetcode.com/problems/best-time-to-buy-and-sell-stock/submissions/
 
-```
+```python
 class Solution(object):
     def maxProfit(self, prices):
         """

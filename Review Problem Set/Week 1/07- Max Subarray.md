@@ -1,7 +1,7 @@
 https://leetcode.com/problems/maximum-subarray/
 
 
-```
+```python
 class Solution(object):
     def maxSubArray(self, nums):
         """

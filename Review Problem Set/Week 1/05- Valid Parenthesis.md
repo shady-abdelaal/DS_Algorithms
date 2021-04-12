@@ -12,8 +12,6 @@ class Solution(object):
         """
         stackList = []
         for bracket in s:
-            #print(stackList)
-            #print(bracket)
             if bracket == '(' or bracket == '{' or bracket == '[':
                 stackList.append(bracket)
             elif len(stackList) == 0:
@@ -28,6 +26,5 @@ class Solution(object):
                 return False
         
         return len(stackList)==0
-                    
-                
+        
 ```

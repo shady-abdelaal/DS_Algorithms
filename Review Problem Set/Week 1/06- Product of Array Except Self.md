@@ -4,7 +4,7 @@ Runtime: 208 ms, faster than 78.37% of Python online submissions for Product of 
 
 But the solution is not optimal, it needs refactoring and better design.
 
-```
+```python
 class Solution(object):
     def productExceptSelf(self, nums):
         """

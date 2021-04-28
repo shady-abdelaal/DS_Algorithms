@@ -31,3 +31,15 @@ Optional#
 - [x] Remove Nth Node From End Of List
 - [ ] Palindromic Substrings
 - [ ] Pacific Atlantic Water Flow
+
+
+# Week 3
+- [ ] Validate Binary Search Tree
+- [ ] Invert/Flip Binary Tree
+- [ ] Non-overlapping Intervals
+- [ ] Serialize and Deserialize Binary Tree
+- [ ] Construct Binary Tree from Preorder and Inorder Traversal
+- [x] Top K Frequent Elements (imp)
+- [ ] Clone Graph
+- [ ] Course Schedule
+- [ ] Binary Tree Maximum Path Sum

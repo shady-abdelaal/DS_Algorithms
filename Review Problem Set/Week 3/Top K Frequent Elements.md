@@ -11,8 +11,8 @@ class Solution(object):
         :type k: int
         :rtype: List[int]
         """
-        
         from collections import Counter
+        
         countDict = Counter(nums)
         mostCommon = countDict.most_common(k) # Always remember that the Count returns [(element, frequency), (element2, frequency), ...]
         answerList = []

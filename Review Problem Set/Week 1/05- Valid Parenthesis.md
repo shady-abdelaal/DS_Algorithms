@@ -40,8 +40,6 @@ class Solution(object):
         stackList = []
         mapping = {")":"(", "]":"[", "}":"{"}
         for bracket in s:
-            #print(stackList)
-            #print(bracket)
             if bracket in mapping.values():
                 stackList.append(bracket)
             elif len(stackList) == 0:

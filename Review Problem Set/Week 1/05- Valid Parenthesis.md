@@ -28,3 +28,28 @@ class Solution(object):
         return len(stackList)==0
         
 ```
+
+Another cleaner solution, to avoid hardcoding of the brackets inside the if conditions:
+```python
+class Solution(object):
+    def isValid(self, s):
+        """
+        :type s: str
+        :rtype: bool
+        """
+        stackList = []
+        mapping = {")":"(", "]":"[", "}":"{"}
+        for bracket in s:
+            #print(stackList)
+            #print(bracket)
+            if bracket in mapping.values():
+                stackList.append(bracket)
+            elif len(stackList) == 0:
+                return False
+            elif mapping[bracket] == stackList[-1]:
+                stackList.pop()
+            else:
+                return False
+        
+        return len(stackList)==0
+```

@@ -34,7 +34,7 @@ class Solution(object):
 In this variation of the problem, the input is given as a list of string characters, and the requirement is to do the reversing *in place* without consuming any extra space.
 https://leetcode.com/problems/reverse-string/submissions/
 
-###Solution
+### Solution
 ```python
 class Solution(object):
     def reverseString(self, s):

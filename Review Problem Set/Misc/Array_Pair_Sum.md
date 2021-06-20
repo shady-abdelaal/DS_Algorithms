@@ -1,4 +1,4 @@
-Source: Python for Data Structure, Algorithm and Interviews:
+Source: "Python for Data Structure, Algorithm and Interviews" Udemy course
 
 # Problem
 Given an integer array, output the number of the * *unique ** pairs that sum up to a specific value k.

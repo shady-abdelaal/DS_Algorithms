@@ -21,3 +21,23 @@ def pair_sum(arr,k):
             lookup.add(num)
     return counter
 ```
+
+# Follow Up:
+Change this logic to return the actual sets instead of just the count
+
+```python
+def pair_sum(arr,k):
+    counter = 0
+    lookup = set()
+    output = set()
+    for num in arr:
+        target = k-num
+        if target in lookup:
+            counter+=1
+            output.add( (min(num,target), max(num,target)) )
+        else:
+            lookup.add(num)
+
+    return output
+    
+```

@@ -1,5 +1,5 @@
-Largest Continuous Sum
-Problem
+Largest Continuous Sum - From Python For Data Strucutres Course
+## Problem
 Given an array of integers (positive and negative) find the largest continuous sum.
 Solution
 If the array is all positive, then the result is simply the sum of all numbers. The negative numbers in the array will cause us to need to begin checking sequences.

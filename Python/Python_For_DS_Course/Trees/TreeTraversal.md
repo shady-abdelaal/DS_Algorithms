@@ -1,3 +1,5 @@
+![Screenshot 2021-07-05 at 14 20 15](https://user-images.githubusercontent.com/44348962/124470622-1f052680-dd9c-11eb-9945-83bbf3eedfb8.png)
+
 # Inorder
 # Preorder
 # Postorder

@@ -32,3 +32,34 @@ class Solution(object):
             
             
 ```
+
+Faster Solution:
+
+```python
+class Solution(object):
+    def isAnagram(self, s, t):
+        """
+        :type s: str
+        :type t: str
+        :rtype: bool
+        """
+        countDict = {}
+        
+        if len(s) != len(t):
+            return False
+        
+        for char in s:
+            countDict[char]  = countDict.get(char,0) + 1
+            
+        
+        for char in t:
+            countDict[char]  = countDict.get(char,0) - 1
+            
+            
+        for element in countDict.values():
+            if element != 0:
+                return False
+            
+        return True
+```
+
